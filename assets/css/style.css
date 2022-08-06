@@ -1,0 +1,76 @@
+html {
+    margin: 0%;
+    padding: 0%;
+    background-color: #abdcf6bd;
+}
+
+#error {
+    display: flex;
+    justify-content: center;
+    font-family: 'Overlock', cursive;
+}
+
+h1 {
+    color: #3a3a3a;
+    font-family: 'Yrsa', serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+hr {
+    width: 50rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: groove;
+    border-radius: 0.5rem;
+    padding: 3.5rem;
+    margin: 1.5rem;
+    color: white;
+    background-color: #505091b3;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gabriela', serif;
+}
+
+.inp {
+    display: flex;
+    justify-content: center;
+    width: 5rem;
+}
+
+.selector {
+    display: flex;
+    justify-content: center;
+    width: 10.7rem;
+    height: 1.5rem;
+    color: #525354;
+    border-radius: 0.3rem;
+}
+
+#btn {
+    width: 10.7rem;
+    height: 2.5rem;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    background-color: #ffcd90;
+}
+
+#myChart {
+    background-color: #b1e2eaa9;
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+}
