@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Codystar&family=Gabriela&family=Overlock:ital,wght@1,700&family=Yrsa:ital,wght@1,600&display=swap" rel="stylesheet">
+        <title>Conversor de monedas</title>
+
+</head>
+<body>
+
+    <p id="error">Esperando respuesta servidor</p>
+
+    <div class="container">
+    <hr/>
+        <h1>Conversor de monedas Nacional</h1>
+    <hr/>
+
+    <div class="box">
+
+    <div class="sub">
+        <h2>Pesos CLP</h2>
+    </div>
+
+    <div class="inp">
+        <input id="inputAmount" type="number" placeholder="Ingrese Monto en CLP" />
+    </div>
+
+        <p>Moneda a Convertir</p>
+
+    <select class="selector" id="selectTypeMoney" type="text" placeholder="Money">
+        <option value="Seleccione Moneda">Seleccione Moneda</option>
+        <option value="dolar">Dolar</option>
+        <option value="uf">UF</option>
+        <option value="UTM">UTM</option>
+    </select>
+
+        <button id="btn">Buscar</button>
+        <p id="resultado">....</p>
+    </div>
+
+    <div>
+        <canvas id="myChart" width="1200" height="400"></canvas>
+    </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
